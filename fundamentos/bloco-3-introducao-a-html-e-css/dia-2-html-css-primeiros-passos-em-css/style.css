@@ -1,0 +1,27 @@
+body {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 600px;
+  font-size: 48px;
+  line-height: 200px;
+  text-align: center;
+}
+
+  h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: double;
+    background-color: yellow;
+  }
+
+  li{ 
+    background-color: maroon;
+  }
+
+ .background {
+   background-color: red;
+ }
