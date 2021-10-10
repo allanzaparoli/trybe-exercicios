@@ -1,0 +1,53 @@
+* {
+  padding: 1px;
+  margin: 10px;
+}
+
+#div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover {
+  border: 2px groove rgb(217, 255, 0);
+  text-align: center;
+}
+
+#div1 {
+  color: red;
+}
+
+#div2 {
+  color: orange;
+}
+
+#div3 {
+  color: #483d8b;
+  font-size: 25px;
+}
+
+#div4 {
+  color: rgb(61, 52, 52);
+}
+
+#div5 {
+  color:rgb(231, 231, 231);
+}
+
+#primaria {
+  border: 1px solid red;
+  font-family: impact;
+}
+
+#secundaria {
+  border: 1px solid orange;
+}
+
+#complementar {
+  border: 1px solid #483d8b;
+  font-family: impact;
+}
+
+#escura {
+  border: 1px solid rgb(61, 52, 52);
+}
+
+#clara {
+  border: 1px solid rgb(231, 231, 231);
+  font-family: impact;
+}
