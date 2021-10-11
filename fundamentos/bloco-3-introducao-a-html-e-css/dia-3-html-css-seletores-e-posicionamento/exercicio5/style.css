@@ -1,0 +1,60 @@
+ol {
+  background-color: yellow;
+}
+
+ol li:nth-child(2n+1) {
+  text-transform: uppercase;
+}
+
+ol li:nth-child(2n) {
+ color: green;
+}
+
+h1, h3 {
+  color: red; 
+}
+
+h1#headeritalico {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+ol li:nth-child(n) {
+  font-weight:bold;
+}
+
+ol li:nth-child(-n+3) {
+  color: blue;
+}
+
+.jpink {
+  background-color: pink;
+}
+
+.stylelink {
+  font-weight:bold;
+}
+
+.stack:hover {
+  color: orange;
+}
+
+.w3:hover {
+  color: green;
+}
+
+.mdn:hover {
+  color: black;
+}
+
+.dev:hover {
+  color: yellow;
+}
+
+.trybe:hover {
+  color: green;
+}
