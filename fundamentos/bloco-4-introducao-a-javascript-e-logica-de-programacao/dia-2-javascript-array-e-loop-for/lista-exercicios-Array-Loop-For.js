@@ -74,16 +74,16 @@ console.log(menor);
 /* Exercício-8 
 Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 */
-var n;
-for (var i = 1; i <= 25; i += 1) {
-  n = i;
+
+var n = "*";
+for(n = 1; n <= 25; n += 1){
   console.log(n);
 }
 /* Exercicio-9
 Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
 */
 
-var divisao = 0
+var divisao;
 for (var i = 0; i < numbers.length; i =+ 1) {
   if(divisao == numbers[i]/2) {
   console.log(divisao);

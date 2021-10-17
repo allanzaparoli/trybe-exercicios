@@ -210,7 +210,7 @@ var salario =1800;
     console.log('Salário líquido é de: '+ [salario - [(0.075) * (salario - (salario * 0.09))]]);
   }else if (salario <= 5.189,82) {
     console.log('Salário líquido é de: '+ [salario - [(0.15) * (salario - (salario * 0.11))]]);
-  }else if (salario > 5.189,82 && < ) {
+  }else if (salario > 5.189,82) {
     console.log('Salário líquido é de: '+ [salario - [(0.225) * (salario - (salario - 570.88))]]);
   }else {
     console.log("Salário está errado.");
