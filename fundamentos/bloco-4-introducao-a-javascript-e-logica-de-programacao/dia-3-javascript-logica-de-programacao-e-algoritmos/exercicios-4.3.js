@@ -11,7 +11,6 @@ n = 5
 
 var asteriscos;
 
-for(asteriscos = 0; asteriscos < 6; asteriscos+= 1){
-asteriscos = "*";
+for (asteriscos = 0; asteriscos < 6; asteriscos+= 1){
  console.log(asteriscos[asteriscos])
 }
