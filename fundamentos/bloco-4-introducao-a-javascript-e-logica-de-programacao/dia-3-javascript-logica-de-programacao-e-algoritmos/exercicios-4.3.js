@@ -8,9 +8,12 @@ n = 5
 *****
 *****
 */
-
-var asteriscos;
-
-for (asteriscos = 0; asteriscos < 6; asteriscos+= 1){
- console.log(asteriscos[asteriscos])
+function asterisco() {
+  aste = "";
+  for(var l = 0; l < 5; l += 1) {
+      for(var c = 0; c < 5; c += 1) {
+      }
+  }
+  return aste;
+      aste = "";
 }
