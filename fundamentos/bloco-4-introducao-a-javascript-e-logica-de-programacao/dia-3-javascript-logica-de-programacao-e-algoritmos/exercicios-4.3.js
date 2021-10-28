@@ -8,12 +8,89 @@ n = 5
 *****
 *****
 */
-function asterisco() {
-  aste = "";
-  for(var l = 0; l < 5; l += 1) {
-      for(var c = 0; c < 5; c += 1) {
-      }
-  }
-  return aste;
-      aste = "";
+
+let n = 5;
+let inputline = '';
+let Symbol = '*';
+
+for(let index = 0; index < n; index += 1) {
+    inputline = inputline + Symbol;
+};
+for (let index = 0; index < n; index += 1) {
+    console.log(inputline);
+};
+
+/* Exercício 2
+Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+n = 5
+
+*
+**
+***
+****
+*****
+*/
+
+let n = 5;
+let asterisco = '*';
+let formula = '';
+
+for (let index = 0; index < n; index += 1) {
+    console.log(formula);
+    formula = formula + asterisco;
+};
+
+/* Exercicio 3
+Agora inverta o lado do triângulo. Por exemplo:
+
+n = 5
+
+    *
+   **
+  ***
+ ****
+*****
+*/
+
+let n = '5';
+let asterisco = '*';
+let funcao = '';
+let inputPosition = n;
+for (let indexline = 0; indexline < n; indeline += 1) {
+    for (let indexcol = 0; indexcol <= n; indexcol += 1) {
+        if (indexcol < indexline) {
+            funcao = funcao + '';
+        }   else {
+            funcao = funcao + asterisco;
+        }
+    }
+    console.log(funcao);
+    funcao = '';
+    inputPosition -= 1;
+};
+
+/*Exercício 4 
+Por fim, faça uma pirâmide com n asteriscos de base:
+n = 5
+  *
+ ***
+*****
+
+*/
+
+let n = 5;
+let asterisco = '*';
+let inputline = '';
+let midOfMatrix = (n + 1) / 2;
+let controlLeft = midOfMatrix;
+let controlRight = midOfMatrix;
+
+for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
+    for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+        if (columnIndex > controlLeft && columnIndex < controlRight) {
+            inputline = inputLine + asterisco;
+        }else {
+            inputline = inputline + ' ';
+        }
+    }
 }

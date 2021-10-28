@@ -18,7 +18,7 @@ Usando o objeto abaixo, utilize For/in e imprima no console a mensagem 'Olá xxx
 let names = {
   person1: 'João',
   person2: 'Maria',
-  person3: 'Jorge' 
+  person3: 'Jorge'
 };
 for (let key in names) {
   console.log('Olá ' + names[key]);
@@ -37,4 +37,33 @@ for(let key in car) {
   console.log(key, car[key]);
 }
 
+/* Exemplo Função >> Carro
+*/
+var statusCarro = "desligado";
+var aceleração = 0;
+var rotacaoDoVolante = 0;
 
+  function ligarDesligar() {
+    if ( statusCarro === "desligado") {
+      statusCarro = "ligado";
+    } else {
+      statusCarro = "desligado";
+    }
+    return statusCarro;
+  }
+
+  function acelerar(incremento) {
+    aceleração = aceleração + incremento;
+    return "Acelerando a " + aceleração + "m/s";
+  }
+
+  function frear(decremento) {
+    aceleração = aceleração - decremento;
+    return "Desacelerendo para " + aceleração + "m/s";
+  }
+
+  function girarVolante(anguloRotacao) {
+    rotacaoDoVolante = anguloRotacao;
+
+    return rotacaoDoVolante + "0"
+  }

@@ -12,7 +12,7 @@ for (let numero of numbers) {
 Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 */
   var soma = 0;
-  for (var index = 0; index < numbers.length; index += 1) {
+  for (let index = 0; index < numbers.length; index += 1) {
     soma += numbers[index];
   }
   console.log('resultado da soma: ' + soma);
@@ -49,22 +49,23 @@ Para o segundo exercício, some todos os valores contidos no array e imprima o r
 
 /* Exercicio 6
  Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";*/
-var nimp = 0;
-for (var index = 0; index < numbers.length; index += 1) {
-
-  if (numbers[index] %2==1) {
-    var nimp = numbers[index];
-    console.log(nimp);
-  }else {
-    // console.log("Nenhum valor impar encontrado");
+for (let index = 0; index < numbers.length; index += 1) {
+  let nimp = 0;
+  if (numbers[index] % 2 !== 0) {
+    nimp += 1;
   }
-}
+}    
+  if (result === 0) {
+    console.log('Nenhum valor ímpar encontrado');
+  } else {
+   console.log(nimp);
+  }
 
 /* Exercício-7
 Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 */
 var menor = numbers[0];
-for (i = 0; i < numbers.length; i += 1) {
+for (let i = 1; i < numbers.length; i += 1) {
   if (numbers[i] < menor) { 
     menor = numbers[i];
   }
@@ -75,17 +76,15 @@ console.log(menor);
 Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 */
 
-var n = "*";
-for(n = 1; n <= 25; n += 1){
-  console.log(n);
+let numbers = [];
+for (let i = 1; i <= 25; i += 1) {
+  numbers.push(index);
 }
+console.log(numbers);
+
 /* Exercicio-9
 Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
 */
-
-var divisao;
-for (var i = 0; i < numbers.length; i =+ 1) {
-  if(divisao == numbers[i]/2) {
-  console.log(divisao);
-}
+for (let i = 0; i < n.length; i =+ 1) {
+  console.log(n[index]/2);
 }
